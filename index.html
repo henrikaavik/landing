@@ -205,6 +205,42 @@
             font-size: 1rem;
         }
 
+        /* Team Member Cards */
+        .team-member {
+            background-color: var(--antique-white);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+        }
+
+        .team-member:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .team-member h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--deep-teal);
+        }
+
+        .team-member .role {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--sky-blue);
+            margin-bottom: 1rem;
+        }
+
+        .team-member p {
+            color: var(--warm-gray-dark);
+            font-size: 1rem;
+            text-align: left;
+            line-height: 1.6;
+        }
+
         /* How It Works Flow */
         .flow-diagram {
             display: flex;
@@ -353,6 +389,7 @@
                     <a href="#solutions">Solutions</a>
                     <a href="#how-it-works">How It Works</a>
                     <a href="#industries">Industries</a>
+                    <a href="#team">Team</a>
                 </nav>
                 <a href="#contact" class="cta-button">Get Started</a>
             </div>
@@ -449,6 +486,35 @@
                 <div class="pill">Legal</div>
                 <div class="pill">Compliance</div>
                 <div class="pill">Auditing</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="section">
+        <div class="container">
+            <h2 class="section-title">Meet Our Team</h2>
+            <div class="grid grid-2">
+                <div class="team-member">
+                    <h3>Otto Mättas</h3>
+                    <p class="role">AI and Technology Lead</p>
+                    <p>Otto is an experienced AI engineer specializing in machine learning, knowledge representation, and logical reasoning systems. With over 15 years in technology leadership and software development, Otto oversees UKU's core AI platform and infrastructure. He ensures UKU's technological solutions are robust, scalable, and adhere to industry standards.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Kirke Maar</h3>
+                    <p class="role">Head of Public Partnerships</p>
+                    <p>Kirke brings over two decades of expertise in public relations and strategic partnership management. She specializes in cultivating relationships with government bodies, educational institutions, and community organizations. Kirke ensures UKU's initiatives align with public interests, fostering collaborative relationships that maximize social impact.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Henrik Aavik</h3>
+                    <p class="role">Chief Operating Officer & Head of Sales</p>
+                    <p>Henrik is an accomplished sales and business development professional with extensive experience in B2B technology markets. His role involves crafting and executing UKU's sales strategies, managing key client relationships, and driving revenue growth. Henrik's dynamic approach ensures market expansion and a strong presence across target industries.</p>
+                </div>
+                <div class="team-member">
+                    <h3>Julian Kaljuvee</h3>
+                    <p class="role">Advisor</p>
+                    <p>Julian brings over a decade of AI/ML engineering and data-science expertise, with a career spanning roles at Microsoft and as a former quantitative analyst at top-tier financial firms (Goldman Sachs, JPMorgan, LSEG, UBS), as well as a co-founder of fintech ventures like Bondora and EstateGuru. With graduate studies in Economics & Applied Mathematics (Harvard) and Statistics (Columbia), Julian advises UKU on advanced AI agent design, generative-AI strategy, and bridging neural-symbolic approaches to financial and compliance use cases.</p>
+                </div>
             </div>
         </div>
     </section>
